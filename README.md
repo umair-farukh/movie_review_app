@@ -24,3 +24,9 @@ Welcome to the Movie Review App! This application allows users to browse and rev
 - Ruby 3.0.0
 - Rails 7.0.4
 - PostgreSQL
+
+## Import CSV
+You can place the csv files in public folder and import it by running a rake task.
+```
+$ rails import_csv:movies_and_reviews 
+```
